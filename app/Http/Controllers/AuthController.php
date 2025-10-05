@@ -54,7 +54,7 @@ class AuthController extends Controller
 
         /**** Проверка капчи ****/
         // Ваш секретный ключ
-        $secretKey = "6LcciGQpAAAAAK8B-5PckUwGLPyZ-wtw7Z66-RWO";
+        $secretKey = "";
         $recaptchaResponse = $_POST['recaptcha_response'];
 
         // Подготавливаем запрос к API
